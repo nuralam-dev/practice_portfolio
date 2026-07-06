@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* common btn */
+.common_btn {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  padding: 0.7rem 1.6rem;
+  border-radius: 15px; 
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 14px rgba(253, 110, 10, 0.3);
+  transition: all 0.3s ease;
+  border: none;
+
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.logo {
+  font-weight: bold;
+  font-size: 32px;
+}
+nav h2 span {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+
+
