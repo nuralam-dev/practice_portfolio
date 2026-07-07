@@ -70,3 +70,18 @@ nav ul li a {
   justify-content: center;
   align-items: center;
 }
+.about_section{
+  background-color: #fff8f3;
+  margin-top: 130px;
+  /* padding: 100px; */
+}
+.about_content{
+  padding: 100px;
+  text-align: center;
+}
+.about_card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
