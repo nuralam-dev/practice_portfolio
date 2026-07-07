@@ -256,3 +256,35 @@ nav ul li a {
 .box_6 {
   grid-area: six;
 }
+
+footer {
+  background-color: #fff8f3;
+  margin-top: 100px;
+
+  height: 700px;
+}
+.footer_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+footer form input,
+footer form textarea {
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+footer form {
+  padding: 50px;
+}
+.left{
+  text-align: center;
+}
