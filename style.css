@@ -3,11 +3,11 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
-header{
-    background-color: #fff8f3;
+header {
+  background-color: #fff8f3;
 }
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 .container {
   max-width: 1200px;
@@ -59,7 +59,7 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 10px;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
 }
 nav ul li a {
@@ -70,18 +70,87 @@ nav ul li a {
   justify-content: center;
   align-items: center;
 }
-.about_section{
+.about_section {
   background-color: #fff8f3;
   margin-top: 130px;
-  /* padding: 100px; */
 }
-.about_content{
+.about_content {
   padding: 100px;
   text-align: center;
 }
-.about_card{
+.about_card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
+}
+.what_i_do_section {
+  text-align: center;
+  margin-top: 150px;
+}
+.card_content {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  text-align: left;
+  margin-top: 50px;
+  gap: 20px;
+}
+.card {
+  flex: 1 1 calc(25% - 25px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 35px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+.services {
+  padding: 90px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  max-width: 750px;
+  margin: 0 auto 60px;
+  text-align: center;
+  color: #777;
+  line-height: 1.8;
+}
+
+.service-card {
+  flex: 1 1 calc(25% - 25px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 35px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.8;
+  font-size: 0.95rem;
 }
